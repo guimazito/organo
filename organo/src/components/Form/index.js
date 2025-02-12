@@ -6,17 +6,6 @@ import { useState } from 'react'
 
 const Form = (props) => {
 
-    const times = [
-        '',
-        'Programação',
-        'Front-End',
-        'Data Science',
-        'Devops',
-        'UX e Design',
-        'Mobile',
-        'Inovação e Gestão'
-    ]
-
     const [name, setName] = useState('')
     const [position, setPosition] = useState('')
     const [image, setImage] = useState('')
@@ -31,16 +20,6 @@ const Form = (props) => {
             image,
             team
         })
-
-        // const names = ['Claudio', 'Joao', 'Maria'];
-        // names.forEach(function(name, i){
-        //     console.log(name, i);
-        // })
-
-        // const animals = ['Elefante', 'Leão', 'Girafa'];
-        // animals.forEach(function(animal){
-        //     console.log(animal);
-        // })
     }
 
     return (
@@ -71,7 +50,7 @@ const Form = (props) => {
                 <DropdownList
                     mandatory={true}
                     label="Times"
-                    itens={times}
+                    itens={props.teams}
                     value={team}
                     whenChanged={value => setTeam(value)}
                 />
