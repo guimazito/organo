@@ -53,21 +53,10 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Form toEmployeeRegistered={employee => toNewEmployeeRegistered(employee)}/>
+      <Form teams={teams.map(team => team.name)} toEmployeeRegistered={employee => toNewEmployeeRegistered(employee)}/>
       {teams.map(team => <Team key={team.name} name={team.name} primaryColor={team.primaryColor} secondaryColor={team.secondaryColor}/>)}
     </div>
   );
 }
 
 export default App;
-
-const times = [
-  '',
-  'Programação',
-  'Front-End',
-  'Data Science',
-  'Devops',
-  'UX e Design',
-  'Mobile',
-  'Inovação e Gestão'
-]
