@@ -1,13 +1,13 @@
 import './Employee.css'
 
-const Employee = () => {
+const Employee = ({name, image, position}) => {
     return (<div className='employee'>
         <div className='header'>
-            <img src='https://github.com/guimazito.png' alt='guimazito'/>
+            <img src={image} alt={name}/>
         </div>
         <div className='footer'>
-            <h4>Claudio</h4>
-            <h5>Dev</h5>
+            <h4>{name}</h4>
+            <h5>{position}</h5>
         </div>
     </div>)
 }
