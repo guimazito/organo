@@ -1,4 +1,4 @@
-import Employee from '../../Employee'
+import Employee from '../Employee'
 import './Team.css'
 
 const Team = (props) => {
