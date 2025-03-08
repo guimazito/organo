@@ -47,7 +47,6 @@ function App() {
   ]
 
   const toNewEmployeeRegistered = (employee) => {
-    console.log(employee)
     setEmployees([...employees, employee])
   }
 

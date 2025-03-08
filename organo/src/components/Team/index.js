@@ -9,7 +9,7 @@ const Team = (props) => {
         props.employees.length > 0 && <section className='team' style={css}>
             <h3 style={{ borderColor: props.primaryColor }}>{props.name}</h3>
             <div className="employees">
-                {props.employees.map(employee => <Employee name={employee.name} position={employee.position} image={employee.image}/>)}
+                {props.employees.map(employee => <Employee primaryColor={props.primaryColor} key={employee.name} name={employee.name} position={employee.position} image={employee.image}/>)}
             </div>
         </section>
     )

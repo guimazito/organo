@@ -1,4 +1,4 @@
-.footer {
+.footer-main {
     background-color: #5068f1;
     text-align: center;
     display: flex;
@@ -8,6 +8,6 @@
     padding: 30px;
 }
 
-.footer .left img{
+.footer-main .left img{
     padding: 10px;
 }

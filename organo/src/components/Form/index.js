@@ -9,7 +9,7 @@ const Form = (props) => {
     const [name, setName] = useState('')
     const [position, setPosition] = useState('')
     const [image, setImage] = useState('')
-    const [team, setTeam] = useState(props.teams[0])
+    const [team, setTeam] = useState()
 
     const onSave = (event) => {
         event.preventDefault()
