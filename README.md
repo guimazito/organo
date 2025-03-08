@@ -6,14 +6,14 @@
 
 This is a simple team organization chart for your company. It was deployed on Versel for testing, https://organo-ochre-nine.vercel.app/.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/guimazito/organo/tree/main?tab=readme-ov-file#readme">back to top</a>)</p>
 
 
 ### Built With
 
 [![React][React.js]][React-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/guimazito/organo/tree/main?tab=readme-ov-file#readme">back to top</a>)</p>
 
 
 
@@ -45,7 +45,7 @@ To get a local copy up and running follow these simple steps.
    npm install
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/guimazito/organo/tree/main?tab=readme-ov-file#readme">back to top</a>)</p>
 
 
 
@@ -59,7 +59,7 @@ https://github.com/user-attachments/assets/3bd82538-3555-41f1-9b3d-5dd09d641001
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/guimazito/organo/tree/main?tab=readme-ov-file#readme">back to top</a>)</p>
 
 
 
@@ -84,7 +84,7 @@ Don't forget to give the project a star! Thanks again!
   <img src="https://contrib.rocks/image?repo=guimazito/organo" alt="contrib.rocks image" />
 </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/guimazito/organo/tree/main?tab=readme-ov-file#readme">back to top</a>)</p>
 
 
 
@@ -94,7 +94,7 @@ Don't forget to give the project a star! Thanks again!
 
 Cláudio Albano Guimarães - albano.guimaraes@gmail.com
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/guimazito/organo/tree/main?tab=readme-ov-file#readme">back to top</a>)</p>
 
 
 
