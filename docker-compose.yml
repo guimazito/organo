@@ -1,0 +1,22 @@
+services:
+  fastapi-app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    # working_dir: /backend
+    environment:
+      - DATABASE_URL=mssql+pymssql://sa:password@db:1433/DB_DEV
+    depends_on:
+      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserver
+    ports:
+        - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=password
+      - MSSQL_PID=Developer

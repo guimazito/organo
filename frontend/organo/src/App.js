@@ -46,7 +46,45 @@ function App() {
     },
   ]
 
+  // const postData(employeeName, employeePosition, employeeImage, employeeTeam) = async () => {
+  const postData = async (employee) => {
+    const url = 'http://127.0.0.1:8000/employees/';
+
+    const data = {
+      // name: employeeName,
+      // name: employee.name
+      // position: employeePosition,
+      // image: employeeImage,
+      // team: employeeTeam
+      name: employee.name,
+      position: employee.position,
+      image: employee.image,
+      team: employee.team
+    }
+
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if(!response.ok) {
+        throw new Error('Request Error!');
+      }
+
+      const result = await response.json();
+      console.log('API Response', result);
+    }catch (error){
+      console.error('Error', error)
+    }
+  };
+
   const toNewEmployeeRegistered = (employee) => {
+    console.log(employee)
+    postData(employee)
     setEmployees([...employees, employee])
   }
 
